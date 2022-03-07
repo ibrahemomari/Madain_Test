@@ -1,0 +1,66 @@
+.container {
+  /* background-color: rgb(250, 179, 179); */
+  text-align: center;
+}
+.container .row {
+  padding: 1em;
+  margin: 1em;
+}
+
+.cat-container .catBtn {
+  margin: 1em;
+  height: 40px;
+  width: 100px;
+  background-color: #0000ff;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 0 5px #01015c;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.cat-container .catBtn:active {
+  transform: scale(0.5);
+}
+
+.list-container .card {
+  padding: 1em;
+  margin: 1em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(128, 128, 128, 0.623);
+}
+
+.list-container .card .card-avatar {
+  width: 3em;
+  height: 3em;
+  background-color: #01015c;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 1.5em;
+  position: absolute;
+  left: 10px;
+}
+
+.list-container .card .card-title {
+  font-size: 2em;
+}
+
+.list-container .card .card-cat {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  background-color: #0000ff;
+  color: #fff;
+  padding: 0.6em;
+  text-transform: capitalize;
+  border-radius: 30px;
+}
